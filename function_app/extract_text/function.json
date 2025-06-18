@@ -1,0 +1,11 @@
+{
+    "scriptFile": "../function_app.py",
+    "entryPoint": "extract_text",
+    "bindings": [
+        {
+            "name": "req",
+            "type": "activityTrigger",
+            "direction": "in"
+        }
+    ]
+}
