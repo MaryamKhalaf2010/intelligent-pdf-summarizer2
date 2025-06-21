@@ -1,10 +1,19 @@
-param location string = resourceGroup().location
+// Location for all resources  
+param location string = 'East US'
 
-// Generate unique names
-var storageName = 'sumstrg${uniqueString(resourceGroup().id)}'
-var functionAppName = 'summarizerfunc${uniqueString(resourceGroup().id)}'
-var hostingPlanName = 'summarizerplan${uniqueString(resourceGroup().id)}'
+// Function Plan SKU and Tier (Flex Consumption Plan)
+@description('The SKU name for the App Service plan (e.g., FC1 for Flex Consumption)')
+param functionPlanSku string = 'FC1'
 
+@description('The SKU tier for the App Service plan (FlexConsumption for FC1)')
+param functionPlanTier string = 'FlexConsumption'
+
+// Generate unique names based on resource group and location
+var storageName = 'sumstrg${uniqueString(resourceGroup().id, location)}'
+var functionAppName = 'summarizerfunc${uniqueString(resourceGroup().id, location)}'
+var hostingPlanName = 'summarizerplan${uniqueString(resourceGroup().id, location)}'
+
+// Storage Account
 resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
   name: storageName
   location: location
@@ -17,25 +26,38 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
   }
 }
 
+// Hosting Plan (Flex Consumption Plan)
 resource hostingPlan 'Microsoft.Web/serverfarms@2022-03-01' = {
   name: hostingPlanName
   location: location
   sku: {
-    name: 'B1'
-    tier: 'Basic'
-    size: 'B1'
-    capacity: 1
+    name: functionPlanSku // FC1
+    tier: functionPlanTier // FlexConsumption
   }
-  kind: 'functionapp'
+  kind: 'elastic'
+  properties: {
+    reserved: true
+  }
 }
 
-resource functionApp 'Microsoft.Web/sites@2022-03-01' = {
+// Function App using functionAppConfig
+resource functionApp 'Microsoft.Web/sites@2023-12-01' = {
   name: functionAppName
   location: location
-  kind: 'functionapp'
+  kind: 'functionapp,linux'
   properties: {
     serverFarmId: hostingPlan.id
-    siteConfig: {
+    functionAppConfig: {
+      runtime: {
+        name: 'python'
+        version: '3.10'
+      }
+      bindings: []
+      deployment: {
+        storage: {
+          type: 'zip'
+        }
+      }
       appSettings: [
         {
           name: 'AzureWebJobsStorage'

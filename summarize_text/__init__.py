@@ -23,8 +23,8 @@ def main(text: str) -> str:
         response = requests.post(url, headers=headers, json=payload)
         response.raise_for_status()
         summary = response.json()["choices"][0]["message"]["content"]
-        logging.info("Summary created successfully.")
+        logging.info("✅ Summary created successfully.")
         return summary
     except Exception as e:
-        logging.error(f" Failed to summarize text: {e}")
+        logging.error(f"❌ Failed to summarize text: {e}")
         raise

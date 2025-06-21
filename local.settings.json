@@ -5,8 +5,8 @@
         "FUNCTIONS_WORKER_RUNTIME": "python",
         "BLOB_CONTAINER_INPUT": "input",
         "BLOB_CONTAINER_OUTPUT": "output",
-        "AZURE_OPENAI_ENDPOINT": "https://summarizer-openai-2.openai.azure.com/",
-        "AZURE_OPENAI_KEY": "9kB7aX9swJNLei8HS5tmgMOjCDPkBykVek4xHOGl7beTjbKqbujqJQQJ99BFACYeBjFXJ3w3AAABACOGOm3d",
+        "AZURE_OPENAI_ENDPOINT": "https://rg-summarizer-ai-eastus.openai.azure.com/",
+        "AZURE_OPENAI_KEY": "3nuHznqMI9pqePbQRI2waRLnSvDTW5RQ2GFp7Xr7nfXGR7msXPb2JQQJ99BFACYeBjFXJ3w3AAABACOGLqZa",
         "CHAT_MODEL_DEPLOYMENT": "summarizer-gpt"
     }
 }
