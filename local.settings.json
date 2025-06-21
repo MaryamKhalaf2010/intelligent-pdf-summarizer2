@@ -1,12 +1,12 @@
 {
     "IsEncrypted": false,
     "Values": {
-        "AzureWebJobsStorage": "DefaultEndpointsProtocol=...your-connection-string...",
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
         "FUNCTIONS_WORKER_RUNTIME": "python",
         "BLOB_CONTAINER_INPUT": "input",
         "BLOB_CONTAINER_OUTPUT": "output",
-        "AZURE_OPENAI_ENDPOINT": "https://summarizer-openai-2.openai.azure.com/openai/deployments/summarizer-gpt/chat/completions?api-version=2025-01-01-preview",
+        "AZURE_OPENAI_ENDPOINT": "https://summarizer-openai-2.openai.azure.com/",
         "AZURE_OPENAI_KEY": "9kB7aX9swJNLei8HS5tmgMOjCDPkBykVek4xHOGl7beTjbKqbujqJQQJ99BFACYeBjFXJ3w3AAABACOGOm3d",
-        "AZURE_OPENAI_DEPLOYMENT": "summarizer-gpt"
+        "CHAT_MODEL_DEPLOYMENT": "summarizer-gpt"
     }
 }

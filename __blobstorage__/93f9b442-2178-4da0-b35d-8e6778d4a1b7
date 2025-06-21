@@ -1,0 +1,43 @@
+{
+  "masterKey": {
+    "name": "master",
+    "value": "mtjYK8O6spExzkuIDGl9hJ0rLkmIl_OE_4nPTKUWcLXnAzFu_9mS0w==",
+    "encrypted": false
+  },
+  "functionKeys": [
+    {
+      "name": "default",
+      "value": "ozyd9tzxEXqcIlZhcBcWl_c1z7uPeOkwRhK0_hcryfiHAzFuDEE0fA==",
+      "encrypted": false
+    }
+  ],
+  "systemKeys": [],
+  "hostName": "localhost:7072",
+  "instanceId": "00000000000000000000000049A1073E",
+  "source": "runtime",
+  "decryptionKeyId": ""
+}{
+  "masterKey": {
+    "name": "master",
+    "value": "mtjYK8O6spExzkuIDGl9hJ0rLkmIl_OE_4nPTKUWcLXnAzFu_9mS0w==",
+    "encrypted": false
+  },
+  "functionKeys": [
+    {
+      "name": "default",
+      "value": "ozyd9tzxEXqcIlZhcBcWl_c1z7uPeOkwRhK0_hcryfiHAzFuDEE0fA==",
+      "encrypted": false
+    }
+  ],
+  "systemKeys": [
+    {
+      "name": "durabletask_extension",
+      "value": "jvYL_xlRpz23-dAyFQJjVpfuxbMZaaaJGDAyp-vt76oHAzFuvO7FIg==",
+      "encrypted": false
+    }
+  ],
+  "hostName": "localhost:7072",
+  "instanceId": "00000000000000000000000049A1073E",
+  "source": "runtime",
+  "decryptionKeyId": ""
+}{}{"TaskHubName":"TestHubName","CreatedAt":"2025-06-18T05:52:29.8342076Z","PartitionCount":4}{"PartitionId":"testhubname-control-03","Owner":null,"Token":null,"Epoch":0}{"PartitionId":"testhubname-control-02","Owner":null,"Token":null,"Epoch":0}{"PartitionId":"testhubname-control-01","Owner":null,"Token":null,"Epoch":0}{"PartitionId":"testhubname-control-00","Owner":null,"Token":null,"Epoch":0}{"OwnerId":"811c9dc5-0000-0000-0000-000000000000","DesiredSwapId":null}{"PartitionId":"testhubname-control-00","Owner":"Maryam","Token":"023c2c7b-6a08-494e-ae3a-f186540c4d40","Epoch":1}{"PartitionId":"testhubname-control-01","Owner":"Maryam","Token":"377194b1-4ee4-4120-af26-3d175c86ddba","Epoch":1}{"PartitionId":"testhubname-control-02","Owner":"Maryam","Token":"d537b12b-5a44-43ea-b3e5-937761269234","Epoch":1}{"PartitionId":"testhubname-control-03","Owner":"Maryam","Token":"acac4cc0-6d8e-472c-acdc-b68234a49dfd","Epoch":1}{"PartitionId":"testhubname-control-00","Owner":"Maryam","Token":"94b8d632-0b12-460d-a44a-ebd8ec1207dc","Epoch":1}{"PartitionId":"testhubname-control-01","Owner":"Maryam","Token":"75828517-d8b8-43df-a56c-f9c0831ce02d","Epoch":1}{"PartitionId":"testhubname-control-02","Owner":"Maryam","Token":"1fd0e5b4-62ca-4438-ac6c-b5b6a0863ada","Epoch":1}{"PartitionId":"testhubname-control-03","Owner":"Maryam","Token":"da6c1ee3-9583-41ab-8bcc-0aa86604a99a","Epoch":1}{"PartitionId":"testhubname-control-03","Owner":null,"Token":null,"Epoch":1}{"PartitionId":"testhubname-control-03","Owner":null,"Token":null,"Epoch":1}{}{"PartitionId":"testhubname-control-03","Owner":null,"Token":null,"Epoch":0}{"PartitionId":"testhubname-control-01","Owner":null,"Token":null,"Epoch":0}{"PartitionId":"testhubname-control-00","Owner":null,"Token":null,"Epoch":0}{"PartitionId":"testhubname-control-00","Owner":"Maryam","Token":"4ad0abed-2880-4d10-aea4-44dc56fea521","Epoch":2}{"PartitionId":"testhubname-control-01","Owner":"Maryam","Token":"7deafdc5-ff0f-4cda-af24-f4db5012ab9a","Epoch":2}{"PartitionId":"testhubname-control-02","Owner":"Maryam","Token":"aa33b06f-d86c-4ee1-9e8f-e103d994f959","Epoch":2}{"PartitionId":"testhubname-control-03","Owner":"Maryam","Token":"cd7b3bea-7fa3-4ab8-9daf-6eac6a00a2db","Epoch":2}{"PartitionId":"testhubname-control-00","Owner":"Maryam","Token":"a351aba4-c099-4ac9-8b94-0ff5b918cd26","Epoch":2}{"PartitionId":"testhubname-control-01","Owner":"Maryam","Token":"357ecbdf-66fa-427b-a58c-2b4c6db6d6a1","Epoch":2}{"PartitionId":"testhubname-control-02","Owner":"Maryam","Token":"5071646a-cf9c-45a4-a14d-44327a6c8ace","Epoch":2}{"PartitionId":"testhubname-control-03","Owner":"Maryam","Token":"b3dffc62-f2f4-4529-ab4c-27edb97bee9a","Epoch":2}{"PartitionId":"testhubname-control-03","Owner":null,"Token":null,"Epoch":2}{"PartitionId":"testhubname-control-03","Owner":null,"Token":null,"Epoch":2}{}{"PartitionId":"testhubname-control-03","Owner":null,"Token":null,"Epoch":0}{"PartitionId":"testhubname-control-02","Owner":null,"Token":null,"Epoch":0}{"PartitionId":"testhubname-control-00","Owner":null,"Token":null,"Epoch":0}{"PartitionId":"testhubname-control-00","Owner":"Maryam","Token":"c0d2700a-c137-4a73-8fe4-6f0b87a5972e","Epoch":3}{"PartitionId":"testhubname-control-01","Owner":"Maryam","Token":"a5095be5-c195-4ad4-951e-2a797e8a19ef","Epoch":3}{"PartitionId":"testhubname-control-02","Owner":"Maryam","Token":"c75f24d0-24aa-402f-9863-81b909f784bc","Epoch":3}{"PartitionId":"testhubname-control-03","Owner":"Maryam","Token":"40f56409-ce10-47e1-b766-208ff801d247","Epoch":3}{"PartitionId":"testhubname-control-00","Owner":"Maryam","Token":"e88bf9b6-1e2d-4dc1-a6f4-20435cf11085","Epoch":3}{"PartitionId":"testhubname-control-01","Owner":"Maryam","Token":"c626d5fa-688e-4ad3-882f-f54d6aa27544","Epoch":3}{"PartitionId":"testhubname-control-02","Owner":"Maryam","Token":"807a6149-98ed-4ef3-b50b-7b8ac9c4a218","Epoch":3}{"PartitionId":"testhubname-control-03","Owner":"Maryam","Token":"bc8dcb52-d319-4fee-a037-df76e58177ea","Epoch":3}{"PartitionId":"testhubname-control-03","Owner":null,"Token":null,"Epoch":3}{"PartitionId":"testhubname-control-03","Owner":null,"Token":null,"Epoch":3}{}{"PartitionId":"testhubname-control-03","Owner":null,"Token":null,"Epoch":0}{"PartitionId":"testhubname-control-02","Owner":null,"Token":null,"Epoch":0}{"PartitionId":"testhubname-control-01","Owner":null,"Token":null,"Epoch":0}{"PartitionId":"testhubname-control-00","Owner":null,"Token":null,"Epoch":0}{"PartitionId":"testhubname-control-00","Owner":"Maryam","Token":"b104a8f1-d1c6-4e7c-b09f-58a4902fca73","Epoch":4}{"PartitionId":"testhubname-control-01","Owner":"Maryam","Token":"cb148083-1148-4c90-9ebf-feeb6ef87c00","Epoch":4}{"PartitionId":"testhubname-control-02","Owner":"Maryam","Token":"017b277a-dbdd-4750-b394-839639a94c0c","Epoch":4}{"PartitionId":"testhubname-control-03","Owner":"Maryam","Token":"2befa102-3628-4694-a18c-2f9563913ea6","Epoch":4}{"PartitionId":"testhubname-control-00","Owner":"Maryam","Token":"9d5d088e-8e47-41a7-bf19-415481e7b6ca","Epoch":4}{"PartitionId":"testhubname-control-01","Owner":"Maryam","Token":"220d5249-20a4-42ca-a272-bbfa879d79bb","Epoch":4}{"PartitionId":"testhubname-control-02","Owner":"Maryam","Token":"6340191b-ed71-4e22-9ca2-e6ef2afa074f","Epoch":4}{"PartitionId":"testhubname-control-03","Owner":"Maryam","Token":"83f8e834-c384-4e49-94d7-a28f9ab9df1c","Epoch":4}
