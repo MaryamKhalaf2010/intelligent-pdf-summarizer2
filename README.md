@@ -83,15 +83,6 @@ Due to Azure OpenAI and App Service plan quota restrictions on student accounts:
 
 ---
 
-##  Mock Summarization Code (in `summarize_text/__init__.py`)
-
-```python
-def main(text: str) -> str:
-    logging.info(" [MOCK] Skipping OpenAI and returning a fake summary.")
-    return "This is a mock summary of the uploaded PDF content."
-```
-
----
 
 ##  Status
 
